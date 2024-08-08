@@ -1,0 +1,38 @@
+.botones {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 10vh;
+    justify-content: space-evenly;
+}
+
+.botones .MuiButtonBase-root {
+    background-color: white ;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.204);
+}
+
+.botones__replay {
+    padding: 3vh;
+    color: orange !important;
+}
+
+.botones__close {
+    padding: 3vh;
+    color: red !important;
+}
+
+.botones__star {
+    padding: 3vh;
+    color: blue !important;
+}
+
+.botones__fav {
+    padding: 3vh;
+    color: green !important;
+}
+
+.botones__flash {
+    padding: 3vh;
+    color: purple !important;
+}
+

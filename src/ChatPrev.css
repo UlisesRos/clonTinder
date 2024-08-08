@@ -1,0 +1,29 @@
+.chatPrev {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 70px;
+    border-bottom: 1px solid #fafafa;
+}
+
+.chatPrev__info {
+    flex: 1;
+}
+
+.chatPrev__img {
+    margin-right: 20px;
+}
+
+.chatPrev__info > p {
+    color: gray;
+}
+
+.chatPrev__times {
+    color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
